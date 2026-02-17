@@ -52,6 +52,7 @@ Procedure / Steps to Perform the Experiment
 ## Step 1: Pull Docker Image
 The Nginx image is pulled from Docker Hub using the following command:
 docker pull nginx
+
 ![](screenshots/Dockerpull.png)
 
 
@@ -60,6 +61,7 @@ This command downloads the latest official Nginx image to the local system.
 ## Step 2: Run Container with Port Mapping
 Run the Nginx container in detached mode with port mapping:
 docker run -d -p 8080:80 nginx
+
 ![](screenshots/Dockerrun.png)
 
 ## Explanation:
@@ -93,6 +95,7 @@ docker rm <container_id>
 
 Step 5: Remove Docker Image To remove the downloaded image:
 docker rmi nginx
+
 ![](screenshots/dockerdesktop_image_removed.png)
 
 
