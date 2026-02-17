@@ -52,7 +52,7 @@ Procedure / Steps to Perform the Experiment
 ## Step 1: Pull Docker Image
 The Nginx image is pulled from Docker Hub using the following command:
 docker pull nginx
-![](Dockerpull.png)
+![](screenshots/Dockerpull.png)
 
 
 This command downloads the latest official Nginx image to the local system.
@@ -60,7 +60,7 @@ This command downloads the latest official Nginx image to the local system.
 ## Step 2: Run Container with Port Mapping
 Run the Nginx container in detached mode with port mapping:
 docker run -d -p 8080:80 nginx
-![](Dockerrun.png)
+![](screenshots/Dockerrun.png)
 
 ## Explanation:
  -d → Runs container in background
@@ -72,7 +72,7 @@ To check running containers, execute:
 docker ps
 
 
-![](Dockerps.png)
+![](screenshots/Dockerps.png)
 
 This displays the container ID, image name, status, and port mapping.
 
@@ -80,20 +80,20 @@ Step 4: Stop and Remove Container
 To stop the running container:
 docker stop <container_id>
 
-![](Dockerstop.png)
+![](screenshots/Dockerstop.png)
 
 
 To remove the container:
 docker rm <container_id>
 
-![](Dockerdesktopcontainers.png)
+![](screenshots/Dockerdesktopcontainers.png)
 
 
 
 
 Step 5: Remove Docker Image To remove the downloaded image:
 docker rmi nginx
-![](dockerdesktop_image_removed.png)
+![](screenshots/dockerdesktop_image_removed.png)
 
 
 
