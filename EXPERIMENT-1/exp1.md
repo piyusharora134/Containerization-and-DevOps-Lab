@@ -214,22 +214,25 @@ curl localhost:8080
 
 ![Nginx Docker](screenshots/docker-nginx.png)
 
-Comparison Table
-Parameter	Virtual Machine	Container
-Boot Time	High	Very Low
-Resource Usage	High	Low
-OS Isolation	Full OS	Shared Kernel
-Performance	Moderate	High
-Portability	Limited	High
-Result
+## Comparison Table
+
+| Parameter        | Virtual Machine | Container     |
+|------------------|-----------------|---------------|
+| Boot Time        | High            | Very Low      |
+| Resource Usage   | High            | Low           |
+| OS Isolation     | Full OS         | Shared Kernel |
+| Performance      | Moderate        | High          |
+| Portability      | Limited         | High          |
+
+## Result
 
 Containers were faster and more resource-efficient than Virtual Machines.
 
-Conclusion
+## Conclusion
 
 Containers are ideal for modern DevOps workflows, while VMs are preferred when full OS isolation is required.
 
-Viva-Voce Questions
+## Viva-Voce Questions
 
 Difference between VM and container?
 
@@ -241,7 +244,7 @@ Can containers run different OS kernels?
 
 Why is Docker lightweight?
 
-References
+## References
 
 VirtualBox Documentation
 
