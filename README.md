@@ -12,4 +12,4 @@
 
 | Experiment No | Title | Link |
 |---------------|-------|------|
-| 01 | Introduction to Docker and Containerization | [View](Experiment-01/Experiment-01.md) |
+| 01 | Introduction to Docker and Containerization | [View](Experiment-01/exp1.md) |
