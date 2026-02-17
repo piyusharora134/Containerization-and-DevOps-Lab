@@ -55,7 +55,7 @@ wsl --install -d Ubuntu
 ![WSL Installation](screenshots/wsl-install.png)
 Restart the system after installation.
 
-Step 2: Verify WSL Installation
+### Step 2: Verify WSL Installation
 wsl --list --verbose
 
 
@@ -65,20 +65,20 @@ wsl -l -v
 
 ![WSL List](screenshots/wsl-list.png)
 
-Step 3: Change WSL Version
+###Step 3: Change WSL Version
 wsl --set-version Ubuntu 2
 wsl --set-default-version 2
 
-Step 4: Check Installed Linux Distributions
+###Step 4: Check Installed Linux Distributions
 wsl --list --all
 
-Step 5: Set Default Linux Distribution
+###Step 5: Set Default Linux Distribution
 wsl --set-default Ubuntu
 
 
 ![Set Default Ubuntu](screenshots/set-default-ubuntu.png)
 
-Step 6: Fix WSL Kernel Issue (If Occurs)
+###Step 6: Fix WSL Kernel Issue (If Occurs)
 
 If error appears:
 
@@ -88,7 +88,7 @@ Run:
 
 wsl --set-version Ubuntu 2
 
-Step 7: Common Errors and Solutions
+###Step 7: Common Errors and Solutions
 
 Error: 'wsl' is not recognized as a command
 
@@ -100,7 +100,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 Restart system.
 
-Step 8: Virtualization Disabled Error (0x80370102)
+###Step 8: Virtualization Disabled Error (0x80370102)
 
 Restart PC
 
@@ -110,7 +110,7 @@ Enable Intel VT-x / AMD-V
 
 Save & Restart
 
-Step 9: Useful WSL Commands
+###Step 9: Useful WSL Commands
 Command	Description
 wsl	Start default Linux
 wsl -d Ubuntu	Start Ubuntu
@@ -121,17 +121,17 @@ Result
 
 WSL was successfully installed and configured with Ubuntu on WSL 2.
 
-Conclusion
+##Conclusion
 
 WSL provides a powerful Linux development environment on Windows suitable for DevOps and container-based workflows.
 
-EXPERIMENT – 1
+###EXPERIMENT – 1
 Comparison of Virtual Machines (VMs) and Containers using Ubuntu and Nginx
-Aim
+##Aim
 
 To compare Virtual Machines and Containers by deploying an Ubuntu-based Nginx web server in both environments.
 
-Theory
+##Theory
 Virtual Machine
 
 Full OS
@@ -153,7 +153,7 @@ Fast startup
 Efficient resource usage
 
 PART A: Virtual Machine Setup (VirtualBox & Vagrant)
-Step 1: Install VirtualBox
+###Step 1: Install VirtualBox
 
 
 
@@ -165,7 +165,7 @@ vagrant --version
 
 ![Vagrant Installation](screenshots/vagrant-install.png)
 
-Step 3: Create Ubuntu VM
+###Step 3: Create Ubuntu VM
 mkdir vm-lab
 cd vm-lab
 vagrant init ubuntu/jammy64
