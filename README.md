@@ -1,15 +1,18 @@
-# Containerization and DevOps Lab
+# Containerization-and-DevOps-Lab
 
-## Student Details
-- **Name:** Piyush Arora  
-- **Roll No:** R2142230330  
-- **SAP ID:** 500121925  
-- **Course:** Containerization and DevOps Lab
+**Name:** Piyush Arora  
+**SAP ID:** 500121925  
+**Roll No:** R2142230330  
+**Batch:** 3  
 
 ---
 
-## List of Experiments
+## LAB
 
-| Experiment No | Title | Link |
-|---------------|-------|------|
-| 01 | Introduction to Docker and Containerization | [View](EXPERIMENT-1/exp1.md) |
+1. [Experiment 1 – WSL, VM vs Container & NGINX Setup](EXPERIMENT-1/exp1.md)
+2. [Experiment 2 – Docker Container Setup](EXPERIMENT-2/exp2.md)
+3. [Experiment 3 – Deploying NGINX Using Different Base Images & Layer Comparison](EXPERIMENT-3/exp3.md)
+
+---
+
+## THEORY
