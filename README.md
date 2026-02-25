@@ -12,7 +12,7 @@
 1. [Experiment 1 – WSL, VM vs Container & NGINX Setup](EXPERIMENT-1/exp1.md)
 2. [Experiment 2 – Docker Container Setup](EXPERIMENT-2/exp2.md)
 3. [Experiment 3 – Deploying NGINX Using Different Base Images & Layer Comparison](EXPERIMENT-3/exp3.md)
-4. [Experiment 3 – Deploying NGINX Using Different Base Images & Layer Comparison](EXPERIMENT-4/exp4.md)
+4. [Experiment 4 – Docker Essentials](EXPERIMENT-4/exp4.md)
 
 ---
 
