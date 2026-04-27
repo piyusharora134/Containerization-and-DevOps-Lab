@@ -1,6 +1,6 @@
 # Experiment 8: Chef - Configuration Management
 
-**Name:** Mayank Thakur
+**Name:** Piyush Arora
 **Subject:** Containerization and DevOps
 
 ---
