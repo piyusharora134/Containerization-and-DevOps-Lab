@@ -1,0 +1,23 @@
+FROM ubuntu:22.04
+
+# Install required packages
+RUN apt-get update && \
+    apt-get install -y openssh-server sudo curl && \
+    apt-get clean
+
+# Setup SSH
+RUN mkdir -p /var/run/sshd && \
+    echo 'root:chef' | chpasswd && \
+    sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
+    sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
+
+# Setup SSH key access
+RUN mkdir -p /root/.ssh && chmod 700 /root/.ssh
+COPY chef-key.pub /root/.ssh/authorized_keys
+RUN chmod 600 /root/.ssh/authorized_keys
+
+# Expose SSH port
+EXPOSE 22
+
+# Start SSH service
+CMD ["/usr/sbin/sshd", "-D"]
