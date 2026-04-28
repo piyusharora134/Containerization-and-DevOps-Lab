@@ -1,7 +1,7 @@
 # Experiment 12: Study and Analyse Container Orchestration using Kubernetes
 
-**Name:** Mayank Thakur  
-**Roll No:** R2142230924  
+**Name:** Piyush Arora
+**Roll No:** R2142230330  
 **Course:** Containerization and DevOps  
 
 ---
